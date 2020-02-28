@@ -12,13 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8db77ef-b3b4-45d8-8f2d-e3222034732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/createForm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/form.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creatForm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/createForm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/createForm.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,8 +52,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="createForm" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="form.txt &quot;São José&quot; &quot;01 de Janeiro 2019&quot; &quot;Mike&quot; &quot;PRG2&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="createForm" TARGET_NAME="createForm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="createForm" RUN_TARGET_NAME="createForm">
+    <configuration name="createForm" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="form.txt cidade=&quot;São José&quot; data=&quot;01 de Janeiro 2019&quot; aluno=&quot;Mike&quot; disciplina=&quot;PRG2&quot; caralhinhos=&quot;baralhinhos&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="createForm" TARGET_NAME="createForm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="createForm" RUN_TARGET_NAME="createForm">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -71,8 +77,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582590433815</updated>
-      <workItem from="1582590435719" duration="6332000" />
+      <workItem from="1582590435719" duration="8225000" />
+      <workItem from="1582807808201" duration="1503000" />
+      <workItem from="1582820375537" duration="7411000" />
+      <workItem from="1582857842445" duration="477000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementado as funções, tem que verificar se neste formato está ok.... https://stackoverflow.com/questions/2896600/how-to-replace-all-occurrences-of-a-character-in-string">
+      <created>1582596922323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582596922323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,59 +97,84 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Implementado as funções, tem que verificar se neste formato está ok.... https://stackoverflow.com/questions/2896600/how-to-replace-all-occurrences-of-a-character-in-string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado as funções, tem que verificar se neste formato está ok.... https://stackoverflow.com/questions/2896600/how-to-replace-all-occurrences-of-a-character-in-string" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2604" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582596779797">
+    <state x="2056" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582838492573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2604" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596779797" />
-    <state x="2570" y="325" width="609" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582593664764">
+    <state x="684" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988@0.27.1920.988" timestamp="1582808896939" />
+    <state x="2056" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838492573" />
+    <state x="2570" y="325" width="609" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582838243238">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2570" y="325" width="609" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582593664764" />
+    <state x="2570" y="325" width="609" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838243238" />
+    <state x="2445" y="116" width="860" height="807" key="CommitChangelistDialog2" timestamp="1582596922173">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2445" y="116" width="860" height="807" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596922173" />
     <state x="2617" y="284" width="515" height="472" key="EnvironmentVariablesDialog" timestamp="1582591662079">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2617" y="284" width="515" height="472" key="EnvironmentVariablesDialog/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591662079" />
-    <state width="1874" height="257" key="GridCell.Tab.0.bottom" timestamp="1582596842890">
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom" timestamp="1582838496591">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596842890" />
-    <state width="1874" height="257" key="GridCell.Tab.0.center" timestamp="1582596842890">
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom/0.27.1920.988@0.27.1920.988" timestamp="1582809331597" />
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496591" />
+    <state width="1874" height="257" key="GridCell.Tab.0.center" timestamp="1582838496591">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596842890" />
-    <state width="1874" height="257" key="GridCell.Tab.0.left" timestamp="1582596842889">
+    <state width="1874" height="257" key="GridCell.Tab.0.center/0.27.1920.988@0.27.1920.988" timestamp="1582809331597" />
+    <state width="1874" height="257" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496591" />
+    <state width="1874" height="257" key="GridCell.Tab.0.left" timestamp="1582838496590">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596842889" />
-    <state width="1874" height="257" key="GridCell.Tab.0.right" timestamp="1582596842890">
+    <state width="1874" height="257" key="GridCell.Tab.0.left/0.27.1920.988@0.27.1920.988" timestamp="1582809331596" />
+    <state width="1874" height="257" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496590" />
+    <state width="1874" height="257" key="GridCell.Tab.0.right" timestamp="1582838496591">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582596842890" />
-    <state width="1874" height="318" key="GridCell.Tab.1.bottom" timestamp="1582591684973">
+    <state width="1874" height="257" key="GridCell.Tab.0.right/0.27.1920.988@0.27.1920.988" timestamp="1582809331597" />
+    <state width="1874" height="257" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496591" />
+    <state width="1874" height="234" key="GridCell.Tab.1.bottom" timestamp="1582838496369">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591684973" />
-    <state width="1874" height="318" key="GridCell.Tab.1.center" timestamp="1582591684973">
+    <state width="1874" height="234" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496369" />
+    <state width="1874" height="234" key="GridCell.Tab.1.center" timestamp="1582838496369">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591684973" />
-    <state width="1874" height="318" key="GridCell.Tab.1.left" timestamp="1582591684973">
+    <state width="1874" height="234" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496369" />
+    <state width="1874" height="234" key="GridCell.Tab.1.left" timestamp="1582838496369">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591684973" />
-    <state width="1874" height="318" key="GridCell.Tab.1.right" timestamp="1582591684973">
+    <state width="1874" height="234" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496369" />
+    <state width="1874" height="234" key="GridCell.Tab.1.right" timestamp="1582838496369">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591684973" />
+    <state width="1874" height="234" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582838496369" />
     <state x="2369" y="155" key="SettingsEditor" timestamp="1582591736955">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="155" key="SettingsEditor/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591736955" />
+    <state x="2536" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1582857842516">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1582807832389" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.988@0.27.1920.988" timestamp="1582820375663" />
+    <state x="2536" y="350" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582857842516" />
+    <state x="2648" y="440" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582858346276">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2648" y="440" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582858346276" />
     <state x="2544" y="237" width="672" height="677" key="run.anything.popup" timestamp="1582591564809">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2544" y="237" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.27.1920.988@1920.0.1920.1080" timestamp="1582591564809" />
+    <state x="623" y="241" key="search.everywhere.popup" timestamp="1582808692434">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="623" y="241" key="search.everywhere.popup/0.27.1920.988@0.27.1920.988" timestamp="1582808692434" />
   </component>
 </project>
